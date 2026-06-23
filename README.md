@@ -1,52 +1,34 @@
-# Phishing Email Detector 🎯
+# Password Generator 🔐
 
-Python ilə hazırlanmış, Machine Learning (TF-IDF + Logistic Regression) əsaslı
-phishing e-mail aşkarlama proqramı.
+A simple Python password generator that creates strong random passwords.
 
-## Xüsusiyyətlər
-- E-mail mətnini analiz edir
-- "phishing" və "legitimate" olaraq təsnif edir
-- Hər proqnoz üçün ehtimal faizini göstərir
-- Terminal üzərindən interaktiv test rejimi
+## Features
 
-## Qurulum
+* Custom password length
+* Optional numbers
+* Optional special characters
+* Random password generation
+
+## Technologies
+
+* Python
+
+## How to Run
 
 ```bash
-git clone https://github.com/<istifadeci-adiniz>/phishing-email-detector.git
-cd phishing-email-detector
-pip install -r requirements.txt
+python3 main.py
 ```
 
-## İstifadə
+## Example
 
-Modeli öyrətmək:
 ```bash
-python phishing_detector.py train
+Parol uzunluğu: 12
+Rəqəm olsun? (y/n): y
+Simvol olsun? (y/n): y
+
+Parol: H#7kP!2mQ@9x
 ```
 
-Tək e-maili yoxlamaq:
-```bash
-python phishing_detector.py predict "Your account will be suspended, click here to verify"
-```
+## Author
 
-İnteraktiv rejim (bir neçə email ardıcıl yoxlamaq üçün):
-```bash
-python phishing_detector.py interactive
-```
-
-## Fayl strukturu
-```
-phishing-email-detector/
-├── phishing_detector.py   # əsas proqram
-├── data.csv               # nümunə təlim datası
-├── requirements.txt       # asılılıqlar
-└── README.md
-```
-
-## Model haqqında
-- **Vektorlaşdırma:** TF-IDF (1-2 gram)
-- **Təsnifatçı:** Logistic Regression
-- **Dataset:** `data.csv` faylındakı nümunə e-maillər (öz datanızla əvəz edə bilərsiniz, məsələn Kaggle-dəki "Phishing Email Dataset")
-
-> Qeyd: Daxil olan `data.csv` kiçik nümunə datasetdir. Daha yüksək dəqiqlik üçün
-> böyük real dataset (məsələn Kaggle-də "Phishing Email Detection Dataset") istifadə edin.
+Nicat Safarov
