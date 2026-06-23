@@ -1,0 +1,31 @@
+text,label
+"Dear customer your account has been suspended click here to verify your identity immediately",phishing
+"URGENT your bank account will be closed unless you confirm your password now",phishing
+"Congratulations you have won a free iPhone click this link to claim your prize",phishing
+"Your PayPal account has unusual activity please login here to secure it",phishing
+"Verify your account information within 24 hours or it will be deleted",phishing
+"You have a pending refund click the link below to receive your money",phishing
+"Security alert someone tried to access your account confirm your identity now",phishing
+"Your password will expire today click here to reset it immediately",phishing
+"We detected suspicious login activity please verify your credentials below",phishing
+"Final notice your subscription payment failed update your card details now",phishing
+"Claim your inheritance of one million dollars by providing your bank details",phishing
+"Your package could not be delivered click here to update your address",phishing
+"Dear user your mailbox is full click here to upgrade storage immediately",phishing
+"Action required your tax refund is waiting confirm your social security number",phishing
+"Your account has been locked due to suspicious activity verify now to unlock",phishing
+"Hi team please find attached the meeting notes from yesterday's call",legitimate
+"Can we reschedule our lunch to next Tuesday let me know what works for you",legitimate
+"Thanks for sending the report I will review it and get back to you tomorrow",legitimate
+"Reminder your dentist appointment is scheduled for next Monday at 10am",legitimate
+"Here is the invoice for last month's services please let us know if you have questions",legitimate
+"Great seeing you at the conference let's catch up soon over coffee",legitimate
+"The project deadline has been moved to next Friday please plan accordingly",legitimate
+"Attached are the photos from the company picnic last weekend",legitimate
+"Your order has shipped and will arrive within 3 to 5 business days",legitimate
+"Please review the attached contract and send your feedback by Friday",legitimate
+"Happy birthday hope you have a wonderful day with family and friends",legitimate
+"The quarterly meeting notes are now available on the shared drive",legitimate
+"Just checking in to see how the new project is progressing",legitimate
+"Thank you for your purchase here is your receipt for the order",legitimate
+"Let's plan the team offsite for next month I have a few venue ideas",legitimate
